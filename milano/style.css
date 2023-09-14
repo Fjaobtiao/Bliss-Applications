@@ -1,0 +1,586 @@
+﻿/*
+Theme Name: Milano
+Theme URI: http://www.texteblis.com.br/
+Description: Teste de Avaliação Bliss Applications
+Version: 1.0
+*/
+
+
+body {
+	font-size: 14px;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	color: #1c1c1c;
+	margin: 0;
+	padding: 0;
+	}
+
+
+/*Heade*/
+header {
+    border-bottom: 1px solid #dadada;
+}
+
+header .container {
+    padding: 35px 40px
+}
+
+header .logo {
+    width: 130px;
+    max-width: 130px;
+}
+
+nav {
+    margin-top: 30px;
+}
+.search-box.header {
+    margin-top: 35px;
+}
+
+nav ul#menu-menu-principal-1 li {
+    display: inline;
+}
+
+ul#menu-menu-principal-1 a {
+padding: 1em 1.4em;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1c1c1c
+}
+
+/*Hero*/
+.hero {
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 0;
+}
+
+
+.title {
+    font-size: 40px;
+    color: #FFF;
+    letter-spacing: 1px;
+}
+.title2 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFF;
+    letter-spacing: 1px;
+}
+
+/*Home*/
+.pt-cv-ifield img {
+    width: 80px;
+}
+
+h4.pt-cv-title a {
+    color: #1c1c1c;
+    font-size: 17px 
+}
+
+.pt-cv-content {
+    font-size: 15px;
+}
+
+
+
+
+/*Cabeçalhos*/
+.toppage {
+    text-align: center;
+    padding: 40px 0;
+    background: #F8F8F8;
+}
+
+.toppage h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.toppage div#crumbs a {
+    color: #1c1c1c;
+}
+
+
+/*conteúdo*/
+.contpage {
+    padding: 100px 0;
+    width: 100%;
+}
+
+/*Eventos*/
+.listev {
+    line-height: 30px;
+    padding: 30px 0;
+    border-bottom: 1px solid #dadada;
+}
+
+
+
+/*Pag 404*/
+.errorpage {
+    padding: 180px 0;
+}
+.errorpage h1 {
+    font-size: 96px;
+}
+.errorpage h2 {
+    font-size: 48px;
+}
+.errorpage img {
+    margin: 30px 0
+}
+.errorpage p {
+    max-width: 60%;
+    margin: 0 auto;
+    padding-bottom: 30px
+}
+.errorpage button {
+    background-color: #1c1c1c;
+    padding: 14px 41px;
+    border:1px #e0e0e0 solid;
+    transition: .3s
+}
+.errorpage button:hover {
+    background-color: #dadada;
+}
+.errorpage button a {
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.errorpage button:hover a {
+    color: #1c1c1c
+}
+
+/*Botão Geral*/
+a.butgeral {
+    background-color: #1c1c1c;
+    padding: 14px 41px;
+    border:1px #e0e0e0 solid;
+    transition: .3s;
+    color: #FFF;
+    text-decoration: none;
+    text-transform: uppercase
+}
+a.butgeral:hover, button.search-go:hover {
+    background-color: #dadada;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+/*Paginação*/
+a.next.page-numbers, a.prev.page-numbers {
+    display: none;
+}
+.navigation {
+    margin-top: 50px;
+    text-align: center;
+}
+span.page-numbers.current {
+    padding: 10px 15px;
+    line-height: 22px;
+    color: #fff;
+    background-color: #1c1c1c;
+    border-radius: 50px;
+    margin: 0 20px;
+    border: 1px solid #1c1c1c;
+}
+a.page-numbers {
+    padding: 10px 15px;
+    line-height: 22px;
+    color: #1c1c1c;
+    border-radius: 50px;
+    border: 1px solid #1c1c1c;
+}
+
+
+
+
+/*Blog*/
+
+.imgblog {
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px 0
+}
+
+h2.pagetitle a {
+    color: #1c1c1c;
+}
+h2.pagetitle a:hover {
+    opacity: .8;
+    text-decoration: none;
+}
+
+.entry {
+    margin: 30px 0;
+}
+hr.hrblog {
+    margin: 40px 0;
+}
+
+
+
+/*Search Form*/
+.search-box form {
+    position: relative
+}
+.search-box form input#s {
+    width: 100% !important;
+    padding: 10px;
+    background: #F7F7F7;
+    border: 1px solid #dadadada
+}
+.search-go {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #1c1c1c;
+    border: 1px solid #000;
+    color: #fff;
+    text-decoration: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.7;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border: 0;
+    -webkit-transition: .2s all;
+    -o-transition: .2s all;
+}
+
+
+/*Eventos*/
+.eventos {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0;
+}
+.eventos h2 {
+    color: #FFF;
+    font-size: 30px;
+}
+
+.eventos h3 {
+    font-size: 45px;
+    color: #FFFF;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+
+.eventos a.butgeral {
+    background-color: #FFF;
+    padding: 14px 41px;
+    border:1px #1c1c1c solid;
+    transition: .3s;
+    color: #1c1c1c;
+    text-decoration: none;
+    text-transform: uppercase
+}
+.eventos a.butgeral:hover {
+    background-color: #dadada;
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+/*Footer*/
+
+footer {
+    background: #F8F8F8;
+    padding: 30px 40px;
+}
+
+.footlogo img {
+    max-width: 130px;
+    width: 130px;
+}
+
+ul.socialfoot {
+    margin: 0;
+    padding: 0;
+}
+ul.socialfoot li {
+    display: inline-block;
+    padding-top: 30px;
+}
+
+ul.socialfoot li a{
+    width: 45px;
+    height: 45px;
+    margin: 6px 4px;
+    color: #1c1c1c;
+    border: 1px solid #1c1c1c;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 43px;
+    transition: .3s;
+}
+
+ul.socialfoot li a:hover {
+    background-color: #1c1c1c;
+    color: #FFF;
+    text-decoration: none
+}
+
+footer .last {
+    padding-top: 30px;
+}
+
+
+
+
+input#control-nav {
+  visibility: hidden;
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
+
+
+
+/* init modal */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s 0.5s ease-in-out;
+  transition: all 0.5s 0.5s ease-in-out;
+}
+
+.modal-content {
+  padding: 10px;
+  max-width: 600px;
+  min-width: 360px;
+  max-height: 85%;
+  overflow: auto;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  z-index: 2;
+  opacity: 0;
+  border-radius: 3px;
+  background: #fff;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.modal-content img {
+  display: block;
+  width: 100%;
+  margin: 10px 0 0;
+}
+
+.modal-content p {
+  padding-top: 10px;
+  text-align: justify;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.modal-close:after {
+  content: "X";
+  float: right;
+  margin: 5px 5px 0 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 20px;
+  box-shadow: 0 0 3px #000;
+}
+
+input[id*="modal_"] {
+  position: fixed;
+  left: -9999px;
+  top: 50%;
+  opacity: 0;
+}
+input[id*="modal_"]:checked + div.modal {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+input[id*="modal_"]:checked + div.modal .modal-content {
+  opacity: 1;
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  -webkit-transition-delay: 0.5s;
+  -ms-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+@media screen and (max-width: 991px) {
+.container.blog .col-lg-3 {
+    display: none 
+}
+}
+
+@media screen and (min-width: 767px) {
+label.control-nav{
+    display: none 
+}
+}
+
+
+
+@media screen and (max-width: 767px) {
+  header nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    border-left: 1px solid #ccc;
+    background: #fff;
+    overflow-x: auto;
+    z-index: 2;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+    margin-top: 0;
+  }
+nav ul#menu-menu-principal-1 li {
+    width: 100% !important;
+    display: block;
+        width: 100%;
+    border: solid #ccc;
+    border-width: 0 0 1px;
+    padding: 16px;
+}
+ul#menu-menu-principal-1, nav ul#menu-menu-principal-1 li a {
+    padding: 0;
+}
+
+nav ul#menu-menu-principal-1 li a { 
+    padding: 15px 10px;
+    color: #999;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    }
+.listev .col-lg-2.col-md-2.dataevento {
+    width: 50%;
+}
+
+.listev .col-lg-7.col-md-7 {
+    width: 50%;
+    text-align: right;
+}
+}
+@media screen and (max-width: 575px) {
+header .col-lg-3.col-md-4.col-sm-4 {
+    width: 40%;
+}
+header .col-lg-6.col-md-8.col-sm-8 {
+    width: 60%;
+}
+header .logo {
+    width: 80px;
+    max-width: 80px;
+}
+footer, .col-lg-4.col-md-4.text-right.last {
+    text-align: center !important;
+}
+}
+
+
+  .control-nav { /* label icon */
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: block;
+    width: 30px;
+    padding: 5px 0;
+    border: solid #333;
+    border-width: 3px 0;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .control-nav:before {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #333;
+  }
+
+  .control-nav-close {
+    position: fixed; /* label layer */
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    background: rgba(0,0,0,0.4);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    -webkit-transform: translate(100%, 0);
+    -ms-transform: translate(100%, 0);
+    transform: translate(100%, 0);
+  }
+
+  /* checked nav */
+  input#control-nav {
+    display: block;
+  }
+
+  input#control-nav:focus ~ .control-nav {
+    border-color: #000;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.3);
+  }
+
+  input#control-nav:focus ~ .control-nav:before {
+    background: #000;
+  }
+
+  input#control-nav:checked ~ nav,
+  input#control-nav:checked ~ .control-nav-close {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  
+
